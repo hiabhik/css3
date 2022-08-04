@@ -1,0 +1,241 @@
+
+body{
+    background-color: grey;
+}
+.box1{
+
+    position: absolute;
+    left: 85vh;
+    height: 120px;
+    width: 290px;
+    border: 5px solid rgb(228, 45, 45);
+    border-radius: 18px;
+    box-shadow:4px 4px rgb(183, 75, 185);
+    
+    
+}
+#spacing{
+    position: absolute;
+    top: 3px;
+    left: 90px;
+    height: 100px;
+    width: 110px;
+    line-height: 22px;
+    font-size: 16px;
+    word-spacing: 5px;
+    color: maroon;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    
+
+}
+
+.container{
+
+    
+    position:absolute;
+     top: 30vh;
+    height: 100vh;
+    width: 200vh;
+    border: 6px solid green;
+}
+.box2{
+    position: absolute;
+    left: 10px;
+    top :40px;
+    height: 20vh;
+    width: 20vh;
+    border: 5px solid red;
+    padding: 30px;
+    font-size: 25px;
+    color: maroon;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 25px;
+    box-shadow: 6px 6px purple;
+    text-shadow: 1px 1px purple;
+
+}
+.box3{
+    position: absolute;
+
+    left: 10px;
+    top :360px;
+    height: 20vh;
+    width: 20vh;
+    border: 5px solid red;
+    padding: 30px;
+    font-size: 20px;
+    color: maroon;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 25px;
+    box-shadow: 6px 6px purple;
+    text-shadow: 1px 1px gray
+
+}
+
+
+.box4{
+    
+
+    position:fixed;
+    left: 580px;
+    top :600px;
+    height: 8vh;
+    width: 50vh;
+    border: 5px solid red;
+    padding-top: 10px;
+    font-size:20px;
+    color: maroon;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    line-height: 25px;
+    box-shadow: 5px 5px purple;
+    text-align: center;
+    float: left;
+    
+    
+
+}
+
+.box5{
+    position: absolute;
+    right :20px;
+    top :360px;
+    height: 20vh;
+    width: 20vh;
+    border: 5px solid red;
+    padding: 30px;
+    font-size: 20px;
+    color: maroon;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 25px;
+    box-shadow: 6px 6px purple;
+    text-shadow: 1px 1px gray;
+    margin: 5px;
+    
+    
+}
+.box6{
+    position: absolute;
+    right :20px;
+    top :20px;
+    height: 20vh;
+    width: 20vh;
+    border: 5px solid red;
+    padding: 30px;
+    font-size: 20px;
+    color: maroon;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 25px;
+    box-shadow: 6px 6px purple;
+    text-shadow: 1px 1px gray
+    
+
+}
+.container2
+{
+    
+    
+    position: absolute;
+    height: 78vh;
+    width: 83vh;
+    top: 150vh;
+    left: 60vh;
+    border: 2px solid yellow;
+    background-color: green;
+    flex-wrap: wrap;
+    z-index: -5;
+
+    
+}
+.fruits{
+    position:absolute;
+    top: 10vh;
+    left:1vh;
+    height: 30vh;
+    width: 40vh;
+
+    overflow-wrap: break-word;
+    text-align:center;
+    font-style: italic;
+    background-color: rgb(174, 174, 61);
+   
+}
+#fruits1{
+    line-height: 28px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-style: italic;
+
+}
+.vegetables{
+    position:absolute;
+    top: 10vh;
+    right:1vh;
+    height: 30vh;
+    width: 40vh;
+    
+    overflow-wrap: break-word;
+    text-align:center;
+    box-sizing:content-box;
+    line-height: 20px;
+    font-style: italic;
+    background-color: rgb(174, 174, 61);
+   
+
+}
+#vegetables1{
+    margin: 5px;
+    padding: 13px;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 28px;
+
+}
+.otheritems{
+    position:absolute;
+    top: 41vh;
+    right:1vh;
+    height: 30vh;
+    width:75vh;
+    
+    overflow-wrap: break-word;
+    text-align:center;
+    box-sizing:content-box;
+    line-height: 35px;
+    font-style: italic;
+    padding: 20px;
+    background-color: rgb(174, 174, 61);
+   
+
+
+}
+#welcome{
+    position: absolute;
+    font-weight: bold;
+    height: 20px;
+    width: 250px;
+    font-size: 24px;
+    top: 25px;
+    left: 25vh;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border: 4px solid black;
+}
+#submit{
+    position: absolute;
+    top: 16vh;
+    left: 55px;
+    border: 2px solid ;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
